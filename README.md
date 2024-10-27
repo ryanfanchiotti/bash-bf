@@ -1,3 +1,3 @@
 # bash-bf
-Brainfuck interpreter written in Bash\
-Usage: ```./bf.py [FILE]```
+Brainfuck interpreter written in pure Bash\
+Usage: ```./bf.bash [FILE]```
