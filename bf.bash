@@ -79,7 +79,7 @@ run_chars() {
                 printf "%b" "$(printf "\x%x\n" "$data" 2>/dev/null)"
                 ;;
             ",")
-                read -rn1 input
+                read -srn1 input
                 runtime_data[data_index]="$(printf '%d' "'${input}")"
                 ;;
         esac
